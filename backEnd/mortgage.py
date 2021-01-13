@@ -3,6 +3,25 @@
     Using: Basic calculation, and machine learning
 '''
 import datetime
+
+class Income:
+    '''
+        Income class:
+            employer: name of the employer
+            address: street address (NUMBER - street name)
+            city:
+            state: 2 letter abbrivation
+            zip: 5 digits zip
+            zipPlus: 4 digits after zip (optional)
+            selfEmploy:
+            yrsOnJob: number of years working with this employer
+            mthOnJob: number of months working with this employer
+            yrsInWork: number of years working in the industry
+            position:
+            phone: business phone number
+            primary: primary(T) or secondary(F) or previous(F)
+    '''
+    def __init__(self):
 class Client:
     '''
         Client class
@@ -47,5 +66,3 @@ class Client:
             Get income
             W-2 + 1099*0.8 + rentalProp * 0.75
         '''
-
-    
